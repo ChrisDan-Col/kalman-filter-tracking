@@ -2,7 +2,7 @@
 
 This project implements two computer vision tasks on a parachute image sequence: shape and texture feature extraction, and Kalman filter-based object tracking.
 
-## Task 1 — Feature Extraction (`Task1_Feature_Christian_Arroyo.m`)
+## Task 1 — Feature Extraction (`Feature.m`)
 
 Extracts shape and texture descriptors from segmented parachute objects across the image sequence:
 
@@ -11,7 +11,7 @@ Extracts shape and texture descriptors from segmented parachute objects across t
 
 Features are extracted per frame and visualised to show how the parachute's appearance changes during descent.
 
-## Task 2 — Kalman Filter Tracking (`Task2_Tracking_Christian_Arroyo.m`)
+## Task 2 — Kalman Filter Tracking (`Tracking.m`)
 
 Implements a Kalman filter to track the parachute centroid across consecutive frames:
 
